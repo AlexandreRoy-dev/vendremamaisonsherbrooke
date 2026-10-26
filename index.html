@@ -91,6 +91,15 @@
         .faq-icon.rotate {
             transform: rotate(180deg);
         }
+
+        #approche {
+            scroll-margin-top: 16rem;
+        }
+        @media (min-width: 1024px) {
+            #approche {
+                scroll-margin-top: 9rem;
+            }
+        }
     </style>
 </head>
 <body class="font-sans text-gray-800 bg-luxuryLight antialiased selection:bg-remaxRed selection:text-white">
@@ -98,8 +107,8 @@
     <header id="main-header" class="sticky top-0 z-50 w-full transition-all duration-700 bg-white/95 backdrop-blur-lg border-b border-gray-200 py-4">
         <div class="max-w-7xl mx-auto px-6 lg:px-12">
             <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                <div class="min-w-0">
-                    <span class="font-serif text-lg sm:text-xl lg:text-2xl font-bold text-luxuryDark tracking-wide uppercase leading-tight">
+                <div class="min-w-0 w-full lg:w-auto">
+                    <span class="block max-w-full font-serif text-lg sm:text-xl lg:text-2xl font-bold text-luxuryDark tracking-wide uppercase leading-tight break-words">
                         Vendremamaison<span class="text-remaxRed italic">sherbrooke</span>.com
                     </span>
                     <p class="mt-1 text-sm leading-snug">
@@ -269,8 +278,8 @@
 
     <footer class="bg-luxuryDark text-white pt-24 pb-12 border-t-4 border-remaxRed">
         <div class="max-w-7xl mx-auto px-6 lg:px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
-            <div class="lg:col-span-2">
-                <span class="font-serif text-2xl font-bold tracking-wide uppercase">Vendremamaison<span class="text-remaxRed italic">sherbrooke</span>.com</span>
+            <div class="lg:col-span-2 min-w-0">
+                <span class="block max-w-full font-serif text-xl sm:text-2xl font-bold tracking-wide uppercase leading-tight break-words">Vendremamaison<span class="text-remaxRed italic">sherbrooke</span>.com</span>
                 <p class="mt-6 text-gray-300 font-light max-w-md leading-relaxed text-sm">
                     L'Équipe Chiasson De Francesco, courtiers immobiliers chez RE/MAX D'ABORD Inc., agence immobilière à Sherbrooke.
                 </p>
@@ -278,14 +287,14 @@
                     <a href="https://chiassondefrancesco.ca" class="text-sm text-white underline underline-offset-2 hover:text-remaxRed">Équipe Chiasson De Francesco</a>
                 </p>
             </div>
-            <div>
+            <div class="min-w-0">
                 <h4 class="font-serif text-lg mb-6 tracking-widest text-white">Contact</h4>
                 <ul class="space-y-4 text-gray-300 font-light text-sm">
                     <li><a href="tel:+18199194631" class="hover:text-white hover:pl-2 transition-all duration-300">T: 819-919-4631</a></li>
-                    <li><a href="mailto:info@vendremamaisonsherbrooke.com" class="hover:text-white hover:pl-2 transition-all duration-300">E: info@vendremamaisonsherbrooke.com</a></li>
+                    <li><a href="mailto:info@vendremamaisonsherbrooke.com" class="inline-block max-w-full break-all hover:text-white hover:pl-2 transition-all duration-300">E: info@vendremamaisonsherbrooke.com</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="min-w-0">
                 <h4 class="font-serif text-lg mb-6 tracking-widest text-white">Agence</h4>
                 <p class="text-gray-300 font-light text-sm leading-relaxed">
                     RE/MAX D'ABORD Inc., agence immobilière, 157 boul. Jacques-Cartier Sud, Sherbrooke (Québec) J1J 2Z4
